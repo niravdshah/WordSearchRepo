@@ -16,11 +16,11 @@ Command to build and run :
 
 By default, Spring Boot runs on port 8080
 
-Open browser and navigate to : http://localhost:port/randomWord
+Open browser and navigate to : http://localhost:port/searchWord
   
 The above REST call with no query parameter returns random word searched. You can add the following query parameter to refine the search and also find occurences of the word count
 
-http://localhost:8080/randomWord?wordToSearch=aaliis&searchOccurrences=true
+http://localhost:8080/searchWord?wordToSearch=aaliis&searchOccurrences=true
 
 
 Following Spring Boot actuator feature can be used to check the health, metrics and other features that are handy
